@@ -1,0 +1,35 @@
+<!DOCETYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"w3.org/TR/xhtml1-transitional.dtd">
+<html xmlns="w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html;charset=utf-8"/>
+<script>
+function st(color)
+{
+   document.body.style.background=color;
+
+}
+function hd(color)
+{
+   document.getElementById("hd").style.background=color;
+}
+ </script>
+ <title>Untitled Document</title>
+ </head>
+
+<body><p><h2>you can change the body color</h2></p>
+<i>
+<input type="button" value="Brown" onclick="st('Brown')"/> Click here for Brown<br />
+<input type="button" value="Blue"  onclick="st('Blue') "/> Click here for Blue<br />
+<input type="button" value="Yellow"  onclick="st('Yellow') "/> Click here for Yellow<br />
+</i>
+
+<h1 id="hd"> hello this is my world </h1>
+<i>
+<input type="button" value="Red"  onclick="hd('Red') "/> Click here for Red<br />
+ <input type="button" value="Purple"  onclick="hd('Purple') "/> Click here for Purple<br />
+<input type="button" value="Orange"  onclick="hd('Orange') "/> Click here for Orange<br />
+</i>
+</body>
+</html>
